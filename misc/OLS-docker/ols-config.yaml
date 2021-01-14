@@ -1,0 +1,141 @@
+---
+ontologies:
+- title: "Plant Ontology"
+  preferredPrefix: "PO"
+  description: "The Plant Ontology is a structured vocabulary and database resource\
+    \ that links plant anatomy, morphology and growth and development to plant genomics\
+    \ data."
+  homepage: "http://browser.planteome.org/amigo"
+  annotations: null
+  oboSlims: false
+  preferredRootTerms: []
+  allowDownload: false
+  uri: "http://purl.obolibrary.org/obo/po.owl"
+  id: "po"
+  mailing_list: null
+  ontology_purl: "http://purl.obolibrary.org/obo/po.owl"
+  reasoner: "NONE"
+  label_property: "http://www.w3.org/2000/01/rdf-schema#label"
+  definition_property:
+  - "http://purl.obolibrary.org/obo/IAO_0000115"
+  synonym_property:
+  - "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  hierarchical_property:
+  - "http://purl.obolibrary.org/obo/BFO_0000050"
+  base_uri:
+  - "http://purl.obolibrary.org/obo/PO_"
+- title: "Units of measurement ontology"
+  preferredPrefix: "UO"
+  description: "Metrical units for use in conjunction with PATO"
+  homepage: "https://github.com/bio-ontology-research-group/unit-ontology"
+  annotations: null
+  oboSlims: false
+  preferredRootTerms: []
+  allowDownload: false
+  uri: "http://purl.obolibrary.org/obo/uo.owl"
+  id: "uo"
+  mailing_list: null
+  ontology_purl: "http://purl.obolibrary.org/obo/uo.owl"
+  reasoner: "NONE"
+  label_property: "http://www.w3.org/2000/01/rdf-schema#label"
+  definition_property:
+  - "http://purl.obolibrary.org/obo/IAO_0000115"
+  synonym_property:
+  - "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  hierarchical_property:
+  - "http://purl.obolibrary.org/obo/BFO_0000050"
+  base_uri:
+  - "http://purl.obolibrary.org/obo/UO_"
+- title: "Woody Plant Ontology ontology"
+  preferredPrefix: "CO_357"
+  description: "This ontology lists all variables used for woody plant observations.\
+    \ Terms are collected from various sources (past and ongoing projects at national\
+    \ and international levels). Curators: Celia Michotey (INRAE) & Ines Chaves (IBET)\
+    \ - Version 2 submitted on Jun 2020 by INRAE."
+  homepage: "http://www.cropontology.org/ontology/CO_357/Woody%20Plant%20Ontology"
+  annotations: null
+  oboSlims: false
+  preferredRootTerms: []
+  allowDownload: false
+  uri: "http://www.cropontology.org/ontology/CO_357/Woody%20Plant%20Ontology"
+  id: "co_357"
+  mailing_list: "helpdesk@cropontology-curationtool.org"
+  ontology_purl: "http://www.cropontology.org/ontology/CO_357/Woody%20Plant%20Ontology/owl"
+  reasoner: "NONE"
+  label_property: "http://www.w3.org/2000/01/rdf-schema#label"
+  definition_property:
+  - "http://www.w3.org/2004/02/skos/core#definition"
+  synonym_property:
+  - "http://www.cropontology.org/rdf/acronym"
+  - "http://www.w3.org/2004/02/skos/core#altLabel"
+  hierarchical_property:
+  - "http://www.cropontology.org/rdf/method_of"
+  - "http://www.cropontology.org/rdf/scale_of"
+  base_uri:
+  - "http://www.cropontology.org/rdf/CO_357"
+- title: "The Environment Ontology"
+  preferredPrefix: "ENVO"
+  description: "ENVO is an ontology which represents knowledge about environments,environmental\
+    \ processes, ecosystems, habitats, and related entities"
+  homepage: "http://environmentontology.org/"
+  annotations: null
+  oboSlims: false
+  preferredRootTerms: []
+  allowDownload: false
+  uri: "http://purl.obolibrary.org/obo/envo.owl"
+  id: "envo"
+  mailing_list: null
+  ontology_purl: "http://purl.obolibrary.org/obo/envo.owl"
+  reasoner: "NONE"
+  label_property: "http://www.w3.org/2000/01/rdf-schema#label"
+  definition_property:
+  - "http://purl.obolibrary.org/obo/IAO_0000115"
+  synonym_property:
+  - "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  hierarchical_property:
+  - "http://purl.obolibrary.org/obo/BFO_0000050"
+  base_uri:
+  - "http://purl.obolibrary.org/obo/ENVO_"
+- title: "Plant Trait Ontology"
+  preferredPrefix: "TO"
+  description: "A controlled vocabulary of describe phenotypic traits in plants."
+  homepage: "http://browser.planteome.org/amigo"
+  annotations: null
+  oboSlims: false
+  preferredRootTerms: []
+  allowDownload: false
+  uri: "http://purl.obolibrary.org/obo/to.owl"
+  id: "to"
+  mailing_list: null
+  ontology_purl: "http://purl.obolibrary.org/obo/to.owl"
+  reasoner: "NONE"
+  label_property: "http://www.w3.org/2000/01/rdf-schema#label"
+  definition_property:
+  - "http://purl.obolibrary.org/obo/IAO_0000115"
+  synonym_property:
+  - "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  hierarchical_property:
+  - "http://purl.obolibrary.org/obo/BFO_0000050"
+  base_uri:
+  - "http://purl.obolibrary.org/obo/TO_"
+- title: "PHI-base Ontology"
+  preferredPrefix: "PHI"
+  description: "Pathogen-Host Interaction database Ontology used by Ensembl"
+  homepage: null
+  annotations: null
+  oboSlims: false
+  preferredRootTerms: []
+  uri: "http://purl.obolibrary.org/obo/phi"
+  id: "phi"
+  mailing_list: null
+  ontology_purl: "file:///opt/ols/phi.obo"
+  reasoner: "NONE"
+  label_property: "http://www.w3.org/2000/01/rdf-schema#label"
+  definition_property:
+    - "http://purl.obolibrary.org/obo/IAO_0000115"
+  synonym_property:
+    - "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  hierarchical_property:
+    - "http://purl.obolibrary.org/obo/BFO_0000050"
+  base_uri:
+    - "http://purl.obolibrary.org/obo/PHI_"    
