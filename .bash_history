@@ -378,3 +378,31 @@ vim annotate_ontology.py
 vim templates/index.html 
 vim annotate_ontology.py 
 vim templates/index.html 
+ls
+git init
+git add .
+ls-ltr
+ls
+cd phenomics_v2/
+ls
+rm -rf .git
+cd ..
+ls
+git rm phenomics
+cd phenomics
+ls
+cd ..
+ls
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kbasecollaborations/miscellaneous.git
+git push -u origin main
+ls
+touch README.md
+ls
+cd phenomics
+ls
+cd ..
+ls
+ls -ltr
